@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smart-ticketing</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- tailwind and daisyUi -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <!-- nav section -->
+        <section class="poppins container mx-auto my-5 lg:my-10">
+          <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li>Home</li>
+                <li>About</li>
+                <li>Destination</li>
+                <li>Search</li>
+                    </ul>
+              </div>
+             <h1 class="font-bold text-2xl">P-Ticket</h1>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="space-x-6 menu menu-horizontal px-1">
+                <li>Home</li>
+                <li>About</li>
+                <li>Destination</li>
+                <li>Search</li>
+                    </ul>
+            </div>
+            <div class="navbar-end gap-1 bg-white">
+              <button class="bg-green-100 text-xl btn flex gap-1">
+                Bus <span><img src="images/bus-icon.png" alt=""></span>
+              </button>
+            </div>
+          </div>
+        </section>
+      </header>
+      <main>
+        <!-- banner section -->
+       <section class="container mx-auto">
+        <div class="hero min-h-screen" style="background-image: url(./images/banner.png);">
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="">
+              <h1 class="mb-5 text-4xl text-white lg:text-5xl font-extrabold ">End-to-End Travel-With <br> <span class="text-green-300">P-Paribahan</span></h1>
+              <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
+              <div>
+                <button class="btn bg-green-300  text-black font-bold">Buy Ticket</button>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+    
+
+       <!-- paribahan section -->
+       <section class="mt-10 bg-gray-50 rounded-lg">
+        <div class="text-center bg-gray-100 pb-5">
+          <h1 class="text-3xl font-bold">PH-Paribahan</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, voluptatibus.</p>
+        </div>
+
+        <div>
+          <div class="grid grid-cols-2 space-x-20">
+            <div class="flex">
+              <img src="images/bus-logo.png" alt="">
+            <h2 class="text-2xl font-semibold">Greenline Paribahan <br>
+              <p class="text-gray-500 text-xs">Coach-009-WEB ! AC_Business</p>
+            </h2>
+            </div>
+            <button class=" btn text-green-500">
+              <img src="images/seat-green.png" alt="">
+              <span>40 Seats left</span>
+            </button>
+          </div>
+        </div>
+       </section>
+       <section class="bg-slate-200 text-center grid grid-cols-3">
+        <div>
+          <p>Routine</p>
+          <h3>Diparture Time</h3>
+        </div>
+        <div>
+          <p>Dhaka-Sylhet</p>
+          <h3>9pm</h3>
+        </div>
+       </section>
+       <div class="pt-5 justify-center flex gap-20 bg-slate-200 text-center">
+        <div>
+          <button class="flex gap-5">
+            <p>Boarding Point - Laxmipur</p>
+            <p>Dropping Point - Bogura</p>
+            <p>Est. Time - 11 Hour</p>
+          </button>
+        </div>
+        <div>
+          <img  src="images/fare.png" alt="">
+        <h1 class="font-extrabold">550 TK</h1>
+        <p>per seat</p>
+        </div>
+       </div>
+       <section>
+        <div class=" space-x-8">
+          <h1 class="font-semibold">Select your Seat</h1>
+         <div class="flex gap-10">
+          <p class="flex"><img src="images/seat-gray.png" alt="">available</p>
+          <p class="flex"><img src="images/seat-green-filled.png" alt="">Selected</p>
+         </div>
+        </div>
+       </section>
+       <!-- keyboard section -->
+       <section class="flex justify-evenly">
+        <div>
+          <div class="space-x-10 space-y-3">
+            A
+            <kbd class="kbd">A1</kbd>
+      <kbd class="kbd">A2</kbd>
+      <kbd class="kbd">A3</kbd>
+      <kbd class="kbd">A4</kbd>
+           </div>
+           <div class="space-x-10 space-y-5">
+            B
+            <kbd class="kbd">B1</kbd>
+      <kbd class="kbd">B2</kbd>
+      <kbd class="kbd">B3</kbd>
+      <kbd class="kbd">B4</kbd>
+           </div>
+           <div class="space-x-10 space-y-5">
+            C
+            <kbd class="kbd">C1</kbd>
+      <kbd class="kbd">C2</kbd>
+      <kbd class="kbd">C3</kbd>
+      <kbd class="kbd">C4</kbd>
+           </div>
+           <div class="space-x-10 space-y-5">
+            D
+            <kbd class="kbd">D1</kbd>
+      <kbd class="kbd">D2</kbd>
+      <kbd class="kbd">D3</kbd>
+      <kbd class="kbd">D4</kbd>
+           </div>
+        </div>
+        <div>
+          <h1 class="font-semibold">Select your Seat</h1>
+          <div class="overflow-x-auto">
+            <table class="table">
+              <!-- head -->
+              <thead>
+                <tr>
+                  <th></th>
+                  <th class="text-black">Seat <span>0</span></th>
+                  <th class="text-black">Class</th>
+                  <th class="text-black">Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- row 1 -->
+                <tr>
+                  <th></th>
+                  <td>C2</td>
+                  <td>Economoy</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <th></th>
+                  <td>C2</td>
+                  <td>Economoy</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <th></th>
+                  <td>Total Price</td>
+                  <td></td>
+                  <td>BDT <span>0</span></td>
+                </tr>
+                <tr>
+                  <th></th>
+                  <td>Grand Total</td>
+                  <td></td>
+                  <td>BDT <span>0</span></td>
+                </tr>
+              </tbody>
+            </table>
+            <input type="text" placeholder="Have any coupon" name="" id=""><button class="btn bg-green-500">apply</button>
+            
+          </div>
+        </div>
+       </section>
+       <main>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/smart.js"></script>
+</body>
+</html>
